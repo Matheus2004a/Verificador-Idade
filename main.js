@@ -8,7 +8,7 @@ btnClear.addEventListener("click", () => {
     dateBirth.value = ''
     dateBirth.focus()
     error.innerHTML = ''
-    resp.innerHTML = 'Preencha os dados acima para ver o resultado'
+    resp.innerHTML = "Preencha os dados acima para ver o resultado"
     resp.appendChild(img).style.display = 'none'
 
     if (inputGenres[0].checked) {
