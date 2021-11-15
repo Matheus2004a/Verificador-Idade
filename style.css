@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','Roboto','Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: #00b7ff;
+}
+
+header,footer{
+    text-align: center;
+    color: #fff;
+}
+
+section{
+    width: 30rem;
+    margin: 10px auto;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+}
+
+p{
+    margin: 1rem 0;
+}
+
+fieldset{
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 0.5rem;
+}
+
+input{
+    outline: none;
+}
+
+input[type="number"]{
+    text-indent: 3px;
+}
+
+#error{
+    color: #ff0000;
+}
+
+.buttons{
+    padding: 0.2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+#resp{
+    text-align: center;
+}
+
+img{
+    width: 15.65rem;
+    height: 15.65rem;
+    clip-path: circle();
+}
+
+footer{
+    font-style: italic;
+}
